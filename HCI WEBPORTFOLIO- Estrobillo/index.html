@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jomar - Creative Portfolio</title>
+  <meta name="description" content="Jom's creative multimedia portfolio with an interactive FPS-themed experience.">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <span class="logo">Jom</span>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#goals">Goals</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="subtitle">Welcome to my profile</p>
+      <h1>Hi, I'm <span class="accent">Jomar</span></h1>
+      <p>A 2nd year college student passionate about gaming, video editing, digital design, and artistic expression. Currently working on front-end development while continuously learning and improving my technical and creative skills. A family-oriented person, a trusted listener to friends, and a lifelong chess player who enjoys strategy and critical thinking.</p>
+      <div class="hero-buttons">
+        <a href="#skills" class="btn btn-primary">View My Skills</a>
+        <a href="#contact" class="btn btn-outline">Contact</a>
+      </div>
+      <p class="hero-hint">💡 <span class="hl">Left-click</span> to shoot targets · <span class="hl">Right-click</span> for sniper ADS · <span class="hl">R</span> to reload</p>
+    </div>
+    <div class="hero-image">
+      <img src="D:\HCI WEBPORTFOLIO\mirror.jpg.webp" alt="Jomar portrait">
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <h2>Skills</h2>
+      <p class="gate-status">Shoot all 3 targets to unlock this section! (<span id="skills-count">0</span>/3)</p>
+    </div>
+    <div class="targets-area" id="skills-targets">
+      <div class="target-wrapper float-0" data-section="skills" data-idx="0"></div>
+      <div class="target-wrapper float-1" data-section="skills" data-idx="1"></div>
+      <div class="target-wrapper float-2" data-section="skills" data-idx="2"></div>
+    </div>
+    <div class="section-content" id="skills-content">
+      <div class="section-header"><h2>⚔️Skills</h2><span class="bar"></span></div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Gaming</h3>
+          <div class="skill-tags">
+            <span class="tag">Valorant</span><span class="tag">League of Legends</span><span class="tag">Chess</span><span class="tag">Mobile Legends</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Editing</h3>
+          <div class="skill-tags">
+            <span class="tag">Da Vinci Resolve</span><span class="tag">Capcut</span><span class="tag">Instagram</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Designing</h3>
+          <div class="skill-tags">
+            <span class="tag">Adobe Illustrator</span><span class="tag">Canva</span><span class="tag">Figma</span><span class="tag">Pinterest</span>
+          </div>
+          </div>
+           <div class="skill-card">
+          <h3>Art</h3>
+          <div class="skill-tags">
+            <span class="tag">Drawing</span><span class="tag">Painting</span><span class="tag">Digital Art</span><span class="tag">Pastel Painting</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header">
+      <h2>Experience</h2>
+      <p class="gate-status">Shoot all 3 targets to unlock this section! (<span id="experience-count">0</span>/3)</p>
+    </div>
+    <div class="targets-area" id="experience-targets">
+      <div class="target-wrapper float-0" data-section="experience" data-idx="0"></div>
+      <div class="target-wrapper float-1" data-section="experience" data-idx="1"></div>
+      <div class="target-wrapper float-2" data-section="experience" data-idx="2"></div>
+    </div>
+    <div class="section-content" id="experience-content">
+      <div class="section-header"><h2>Experience</h2><span class="bar"></span></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="year">2025 - Present</span>
+            <h3>KOW Front-end</h3>
+            <p class="place">Quezon City University</p>
+            <p>For Karunungan on Wheels (KOW), I developed the front-end mobile app using Flutter, building three core screens: Grade Selection, Level Map, and Quiz. The Quiz screen supports three difficulty levels with animated answer buttons, a result card, and a Level Complete popup displaying scores and medals. Throughout the project, I maintained a consistent space theme with custom animations and an overall playful educational design.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="year">2024 - 2025</span>
+            <h3>Started College (BSIT Student)</h3>
+            <p class="place">Quezon City University</p>
+            <p>I began my journey as an IT student in college, where I was introduced to programming and system development. As a first-year student, I successfully developed an Enrollment System, which helped me understand how digital systems manage student records and registration processes. This project became one of my first milestones in learning software and web development.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="year">2024</span>
+            <h3>Chess Tournament Champion</h3>
+            <p class="place">South-east Asia Institute of Trade and Technology</p>
+            <p>Represented the ABM strand of Lagro Branch in a chess tournament where different strands competed against each other. Successfully became the champion, demonstrating strategic thinking, focus, and decision-making skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOALS -->
+  <section id="goals">
+    <div class="section-header">
+      <h2>Goals</h2>
+      <p class="gate-status">Shoot all 3 targets to unlock this section! (<span id="goals-count">0</span>/3)</p>
+    </div>
+    <div class="targets-area" id="goals-targets">
+      <div class="target-wrapper float-0" data-section="goals" data-idx="0"></div>
+      <div class="target-wrapper float-1" data-section="goals" data-idx="1"></div>
+      <div class="target-wrapper float-2" data-section="goals" data-idx="2"></div>
+    </div>
+    <div class="section-content" id="goals-content">
+      <div class="section-header"><h2>Goals</h2><span class="bar"></span></div>
+      <div class="goals-grid">
+        <div class="goal-card">
+          <h3>Travel</h3>
+          <p>Explore different countries and experience diverse cultures. Japan, South Korea, and Europe are top on the list.</p>
+          <div class="progress-bar"><div class="progress-fill" style="width:5%"></div></div>
+          <span class="progress-label">5% Complete</span>
+        </div>
+        <div class="goal-card">
+          <h3>Learn & Knowledge</h3>
+          <p>As I continue my life, my goal is to learn more about game development and someday create a game of my own. Explore art and music, while also studying human psychology.</p>
+          <div class="progress-bar"><div class="progress-fill" style="width:15%"></div></div>
+          <span class="progress-label">15% Complete</span>
+        </div>
+        <div class="goal-card">
+          <h3>Hobby</h3>
+          <p>Build a personal gaming setup, start a Stream channel for gaming content, and learn arts and music production.</p>
+          <div class="progress-bar"><div class="progress-fill" style="width:20%"></div></div>
+          <span class="progress-label">20% Complete</span>
+        </div>
+        <div class="goal-card">
+          <h3>Fulfillment</h3>
+          <p>I aim to fulfill my dreams, live a balanced and settled life, and explore what true happiness really means. Along the way, I want to keep growing, learning, and creating in areas I am passionate about.</p>
+          <div class="progress-bar"><div class="progress-fill" style="width:5%"></div></div>
+          <span class="progress-label">5% Complete</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <h2>Contact Info</h2>
+      <p class="gate-status">Shoot all 3 targets to unlock this section! (<span id="contact-count">0</span>/3)</p>
+    </div>
+    <div class="targets-area" id="contact-targets">
+      <div class="target-wrapper float-0" data-section="contact" data-idx="0"></div>
+      <div class="target-wrapper float-1" data-section="contact" data-idx="1"></div>
+      <div class="target-wrapper float-2" data-section="contact" data-idx="2"></div>
+    </div>
+    <div class="section-content" id="contact-content">
+      <div class="section-header"><h2>Contact Info</h2><span class="bar"></span></div>
+      <div class="contact-grid">
+        <div class="info-card"><div class="icon">📧</div><h3>Email</h3><p>estrobillo.jomar.hermo@gmail.com</p></div>
+        <div class="info-card"><div class="icon">📱</div><h3>Phone</h3><p>09275749591</p></div>
+        <div class="info-card"><div class="icon">📍</div><h3>Location</h3><p>Quezon City</p></div>
+      </div>
+      <div class="socials-card">
+        <div class="icon" style="font-size:2rem;margin-bottom:0.75rem">🌐</div>
+        <h3>Socials</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/empty.jom" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/empty.jom/" target="_blank">Instagram</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 Jomar. All rights reserved. | Built with 🎯</footer>
+
+  <!-- CROSSHAIR -->
+  <div id="crosshair"></div>
+  <!-- ADS OVERLAY -->
+  <div id="ads-overlay"></div>
+
+  <!-- HUD -->
+  <div id="hud">
+    <div class="hud-label"><span>Ammo</span><span class="hud-reload" id="reload-text" style="display:none">Reloading...</span></div>
+    <div class="ammo-row" id="ammo-bars"></div>
+    <div class="hud-keys">
+      <span><kbd>LMB</kbd> Shoot</span>
+      <span><kbd>RMB</kbd> ADS</span>
+      <span><kbd>R</kbd> Reload</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
